@@ -12,9 +12,9 @@ export class HomeComponent implements OnInit {
     headerService.headerData = {
       title: 'Início',
       icon: 'home',
-      routerUrl: ''
+      routeUrl: ''
     }
-   }
+  }
 
   ngOnInit(): void {
   }
